@@ -1,0 +1,23 @@
+{
+  "name": "taal",
+  "version": "0.1.0",
+  "description": "simple input masking help function",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saebyuckbaan/taal.js.git"
+  },
+  "keywords": [
+    "input",
+    "mask"
+  ],
+  "author": "Davis Yi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Saebyuckbaan/taal.js/issues"
+  },
+  "homepage": "https://github.com/Saebyuckbaan/taal.js#readme"
+}
