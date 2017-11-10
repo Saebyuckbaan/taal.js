@@ -3,7 +3,6 @@
  * Created Date : 11 / 4 / 2017
  * Description : Taal.js is simple input masking helper function.
  */
-'use strict';
 
 const Taal = ( input, maskingTemplate ) => {
   //seperate masking string into string
