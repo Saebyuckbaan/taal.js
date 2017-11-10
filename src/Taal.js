@@ -7,7 +7,7 @@
  */
 function Taal ( input, maskingTemplate ) {
   //seperate masking string into string
-  let subStrStartIndex = 0,
+  var subStrStartIndex = 0,
   hasError = false,  
   errorMessage = '',
   result = '';
@@ -30,15 +30,15 @@ function Taal ( input, maskingTemplate ) {
 
   if ( !hasError ) {
     //replace 0s with the user input and consolidate result.
-    result =  maskingTemplate.match(/([^\w\d]+)|([\w\d]+)/g).map( ( element ) => {
+    result =  maskingTemplate.match(/([^\w\d]+)|([\w\d]+)/g).map( function ( element ) {
       //result can be substring from user input or the special characters
-      let result = element;
+      var result = element;
 
       // if current element inside of mask is not a special character
       if( element.match(/([\w\d]+)/g) ) {
 
         // get ending index of substring
-        let subStrEndIndex = subStrStartIndex + element.length;
+        var subStrEndIndex = subStrStartIndex + element.length;
 
         //slide out substring from the user input 
         result = input.slice( subStrStartIndex, subStrEndIndex );
