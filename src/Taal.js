@@ -1,10 +1,11 @@
 /**
- * Author: Davis Yi
- * Created Date : 11 / 4 / 2017
  * Description : Taal.js is simple input masking helper function.
+ *
+ * @param { String } input - user input value.
+ * @param { String } maskingTemplate - mask pattern.
+ * @returns { Object } Returns `object` with hasError boolean, errorMessage string, and result string.
  */
-
-const Taal = ( input, maskingTemplate ) => {
+function Taal ( input, maskingTemplate ) {
   //seperate masking string into string
   let subStrStartIndex = 0,
   hasError = false,  
@@ -59,4 +60,4 @@ const Taal = ( input, maskingTemplate ) => {
   };
 };
 
-export default Taal;
+module.exports = Taal;
