@@ -19,12 +19,17 @@ Taal( '12211990', '00/00/0000') // this will return { hasError: false, errorMess
 ```
 
 ##### UPDATE LOG
+##### 11/10/2017
+- Entry point change for require or import statement
+- Export default function added (Bug fix)
+
+##### 11/9/2017
+- Karma issue fixed.
+- Minor edge case has handled
+
 ##### 11/4/2017 
 - Project initiated and test spec has created.
 - Basic functionality has been created
 - Has issue with Karma testing
 
-##### 11/9/2017
-- Karma issue fixed.
-- Minor edge case has handled
 
