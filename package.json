@@ -2,7 +2,7 @@
   "name": "taal",
   "version": "0.1.0",
   "description": "simple input masking help function",
-  "main": "index.js",
+  "main": "src/Taal.js",
   "scripts": {
     "test": "karma start",
     "test:single": "karma start --single-run"

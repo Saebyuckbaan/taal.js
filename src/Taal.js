@@ -58,3 +58,5 @@ const Taal = ( input, maskingTemplate ) => {
     result: result
   };
 };
+
+export default Taal;
