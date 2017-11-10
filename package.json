@@ -1,6 +1,6 @@
 {
   "name": "taal",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "simple input masking help function",
   "main": "src/Taal.js",
   "scripts": {
